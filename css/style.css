@@ -1,0 +1,118 @@
+video, img, canvas{
+    max-width: 100%;
+}
+
+#canvas{
+  max-width: 100%;
+
+ }
+
+.container{
+  background-color: antiquewhite;
+  text-align: center;
+ }
+
+
+.headlogo{
+  width: 50%;
+  position: relative;
+  left: 36%;
+ }
+
+.pupy{
+position: relative;
+}
+
+.logo{
+position: relative;
+}
+
+#sharebutton{
+  background-color: #F9B900;
+  color: white;
+  font-weight: 700;
+}
+
+#startbutton{
+  background-color: #F9B900;
+  color: white;
+  font-weight: 700;
+
+ }
+
+
+/* גדלים נפוצים שפותחו
+360×640 – 12.98%
+414×896 – 7.82%
+375×667 – 6.65%
+360×780 – 6.02%
+360×760 – 5.27% 
+375×812 – 5.15% */
+
+
+@media only screen and (max-width: 360px) {
+  .pupyAndlogo{
+    position: absolute;
+    right: 29%;
+    top: 29%;
+  }
+  .logo{
+
+     right: 11%; 
+  }
+  }
+
+@media only screen and (min-width: 375px) {
+  .pupyAndlogo{
+      bottom: 43.5%;
+      position: absolute;
+      right: 25%;
+  }
+
+  .logo{
+
+      right: 14%; 
+  }
+    
+}
+@media only screen and (min-width: 390px) {
+.pupyAndlogo{
+  bottom: 41.5%;
+}
+
+}
+
+@media only screen and (min-width: 414px) {
+  .pupyAndlogo{
+    position: absolute;
+    bottom: 39%;
+    right: 7%;
+  }
+  
+  .logo{
+   
+    right: 24%;
+  }
+
+}
+
+
+@media only screen and (min-width: 430px) {
+ 
+  .pupyAndlogo{
+    position: absolute;
+    bottom: 37%;
+    right: 11%;
+}
+
+  /* .logo{
+    bottom: 210px;
+    max-width: 38%;
+    right: 113px;
+  } */
+  
+  /* .buttonsPhoto{
+    bottom: 214px;
+   } */
+}
+
